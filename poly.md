@@ -2,11 +2,13 @@
 Literally "many forms," it's the ability of an object to take on many shapes. In Java, this means a parent class reference can hold a child class object, allowing us to write flexible and reusable code.
 Think of a remote control's Power button. The button is the same, but it behaves differently for a TV, a Sound System, or a Blu-ray player.
 Polymorphism in Java comes in two main flavors:
+
 1️⃣ Compile-Time Polymorphism (Static Binding)
 Achieved via Method Overloading.
 What it is: Multiple methods in the same class with the same name but different parameters.
 How it works: The compiler knows exactly which method to call at compile time based on the arguments you provide.
 Example: calculator.add(2, 3) vs. calculator.add(2, 3, 4)
+
 2️⃣ Runtime Polymorphism (Dynamic Binding)
 Achieved via Method Overriding.
 What it is: A subclass provides its own specific implementation of a method that is already defined in its parent class.
